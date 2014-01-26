@@ -35,7 +35,7 @@ namespace ThemeTool
 					result = sr.ReadLine();
 				}
 			}
-			catch// (Exception ex)
+			catch //(Exception ex)
 			{
 				//System.Windows.Forms.MessageBox.Show(ex.ToString());
 			}
@@ -51,7 +51,7 @@ namespace ThemeTool
 					sw.WriteLine(themeName);
 				}
 			}
-			catch// (Exception ex)
+			catch //(Exception ex)
 			{
 				//System.Windows.Forms.MessageBox.Show(ex.ToString());
 			}
@@ -104,7 +104,7 @@ namespace ThemeTool
 					ThemeFactory.ResetTheme();
 				}
 			}
-			catch// (Exception ex)
+			catch //(Exception ex)
 			{
 				//System.Windows.Forms.MessageBox.Show(ex.ToString(), "At ToolSettings.SetTheme()");
 			}
